@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.input-container {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    padding: 5px;
+}
+
+.input-container input {
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    flex: 1;
+
+}
+
+.input-container button {
+    height: 40px;
+    width: 40px;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.input-container button:hover {
+    background-color: #e6e6e6;
+}
+
+#show-password {
+    display: block;
+}
+
+#hide-password {
+    display: none;
+}
