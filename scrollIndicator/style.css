@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #f1f1f1;
+  
+}
+
+main{
+  padding: 2rem 1rem;
+}
+
+main p{
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.scroll-indicator{
+    width: 100%;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 15px;
+    z-index: 1000;
+}
+
+.scroll-indicator__bar{
+    width: 0%;
+    height: 100%;
+    background: #474bff;
+    background: -webkit-linear-gradient(100deg, #474bff 0%, #bc48ff 100%);
+    background: linear-gradient(100deg, #474bff 0%, #bc48ff 100%);
+    transition: width 0.3s ease-out;
+}
